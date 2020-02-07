@@ -43,7 +43,7 @@ public class Card {
         );
     }
 
-    private int getThirdValue(final int i, final int j) {
-        return i == j ? i : 6 - (i + j);
+    private int getThirdValue(final int firstValue, final int secondValue) {
+        return firstValue == secondValue ? firstValue : 6 - (firstValue + secondValue);
     }
 }
