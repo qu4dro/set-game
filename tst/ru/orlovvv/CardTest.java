@@ -18,5 +18,9 @@ class CardTest {
         Card c1 = new Card(1,2,3,1);
         Card c2 = new Card(2, 3, 1, 2);
         assertEquals(Card.getThird(c1,c2), new Card(3, 1, 2, 3));
+        
+        Card c3 = new Card(1,2,1,3);
+        Card c4 = new Card(1,2,2,3);
+        assertEquals(Card.getThird(c3,c4), new Card(1,2,3,3));
     }
 }
