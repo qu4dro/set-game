@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4d22f54-1e20-4c9b-9ca0-557d859d5775" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set-game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/set-game.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/orlovvv/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/orlovvv/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/orlovvv/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -28,13 +32,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.orlovvv" />
+      <recent name="tst.ru.orlovvv" />
+      <recent name="" />
+      <recent name="tst.tst.ru.orlovvv" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in set-game">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ru.orlovvv.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="set-game" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -43,6 +68,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in set-game" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="set-game" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.getThird" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="set-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.orlovvv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.orlovvv" />
+      <option name="MAIN_CLASS_NAME" value="ru.orlovvv.CardTest" />
+      <option name="METHOD_NAME" value="getThird" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.All in set-game" />
+      <item itemvalue="JUnit.CardTest.getThird" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CardTest.getThird" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,6 +118,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,7 +130,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581051357223</updated>
-      <workItem from="1581051359484" duration="1686000" />
+      <workItem from="1581051359484" duration="2322000" />
+      <workItem from="1581055154648" duration="1701000" />
     </task>
     <servers />
   </component>
@@ -74,9 +139,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="301" y="65" key="#All_in_set-game" timestamp="1581054739079">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="65" key="#All_in_set-game/0.0.1440.900@0.0.1440.900" timestamp="1581054739079" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1581052488448">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581052488448" />
+    <state x="458" y="217" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581056673602">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="217" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1581056673602" />
+    <state x="458" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581056671212">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="225" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1581056671212" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1581057065250">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581057065250" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1581057065247">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581057065247" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1581057065245">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581057065245" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1581057065248">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581057065248" />
+    <state x="432" y="346" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581054539102">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="346" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1581054539102" />
+    <state x="499" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581056764544">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1581056764544" />
+    <state x="114" y="31" key="new project wizard" timestamp="1581055078422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="31" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1581055078422" />
   </component>
 </project>

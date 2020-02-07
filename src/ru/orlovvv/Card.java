@@ -17,10 +17,9 @@ public class Card {
         this.color = color;
     }
 
-
     @Override
     public String toString() {
-        return "fill: " + fill + "count: " + count + ", shape: " + shape + ", color: " + color;
+        return "fill: " + fill + " " + "count: " + count + " " + "shape: " + shape + " " + ", color: " + color;
 
     }
 
@@ -35,7 +34,7 @@ public class Card {
                 color == card.color;
     }
 
-    public Card getThird(final Card firstCard, final Card secondCard) {
+    public static Card getThird(final Card firstCard, final Card secondCard) {
         return new Card(getThirdValue(firstCard.fill, secondCard.fill),
                 getThirdValue(firstCard.count, secondCard.count),
                 getThirdValue(firstCard.shape, secondCard.shape),
@@ -43,7 +42,7 @@ public class Card {
         );
     }
 
-    private int getThirdValue(final int firstValue, final int secondValue) {
+    private static int getThirdValue(final int firstValue, final int secondValue) {
         return firstValue == secondValue ? firstValue : 6 - (firstValue + secondValue);
     }
 }
